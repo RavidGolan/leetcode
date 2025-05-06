@@ -1,3 +1,5 @@
+export {};
+
 class LikesTracker {
     countByPostId = new Map<number, number>();
     usersByPostId = new Map<number, Map<number, number>>();
@@ -39,7 +41,7 @@ class LikesTracker {
         })
 
 
-        // return maxPosts.keys();
+        return Array.from(maxPosts.keys());
     }
 }
 

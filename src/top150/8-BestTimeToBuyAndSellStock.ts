@@ -1,3 +1,5 @@
+export {};
+
 function maxProfit(prices: number[]): number {
     let profit = 0;
 
@@ -8,7 +10,7 @@ function maxProfit(prices: number[]): number {
     }
 
     return profit;
-};
+}
 
 function maxProfitWithDays(prices: number[]): number {
     let profit = 0;
@@ -24,12 +26,16 @@ function maxProfitWithDays(prices: number[]): number {
 
     console.log("total profit: %s", profit);
     return profit;
-};
+}
 
 maxProfitWithDays([1,5,3,100]);
 
 class C {
-    [Math.random()] = 1;
+    // [Math.random()] = 1;
+    [key: number]: number; // optional: index signature
+    constructor() {
+        this[Math.random()] = 1;
+    }
 }
 
 console.log(new C());

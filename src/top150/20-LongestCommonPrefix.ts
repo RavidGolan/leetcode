@@ -1,3 +1,5 @@
+export {};
+
 function longestCommonPrefix(strs: string[]): string {
     let longestCommonPrefix: string = "";
     if (strs.length > 0) {
@@ -23,7 +25,7 @@ function longestCommonPrefix(strs: string[]): string {
     }
 
     return longestCommonPrefix;
-};
+}
 
 function longestCommonPrefix2(strs: string[]): string {
     let ans = strs[0];
@@ -37,4 +39,4 @@ function longestCommonPrefix2(strs: string[]): string {
         }
     }
     return ans;
-};
+}

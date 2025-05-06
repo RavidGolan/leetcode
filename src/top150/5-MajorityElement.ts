@@ -1,3 +1,5 @@
+export {};
+
 function majorityElement(nums: number[]): number {
     let numsCounters= {};
     let biggestCounter: number = 0;

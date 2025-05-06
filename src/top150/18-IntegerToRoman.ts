@@ -1,3 +1,5 @@
+export {};
+
 function convertNot49ToRoman(num: number): string {
     const converter = {
         1: 'I',
@@ -86,7 +88,7 @@ function intToRoman(num: number): string {
     }
 
     return numAsRoman;
-};
+}
 
 console.log(intToRoman(3749));
 console.log(intToRoman(58));

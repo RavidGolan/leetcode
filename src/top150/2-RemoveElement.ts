@@ -1,3 +1,5 @@
+export {};
+
 function removeElement(nums: number[], val: number): number {
     let k: number = 0;
     let valIndex = 0;

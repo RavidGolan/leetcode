@@ -1,3 +1,5 @@
+export {};
+
 function romanToInt(s: string): number {
     const converter = {
         I: 1,
@@ -17,7 +19,7 @@ function romanToInt(s: string): number {
         }
     }
     return finalNumber;
-};
+}
 
 console.log(romanToInt("III"));
 console.log(romanToInt("LVIII"));

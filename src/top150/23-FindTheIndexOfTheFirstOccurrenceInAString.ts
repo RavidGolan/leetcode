@@ -1,3 +1,5 @@
+export {};
+
 // https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/?envType=study-plan-v2&envId=top-interview-150
 
 function strStr(haystack: string, needle: string): number {
@@ -32,7 +34,7 @@ function strStr(haystack: string, needle: string): number {
     } else {
         return haystackIndex-needle.length+1;
     }
-};
+}
 
 console.log(strStr("sadbutsad", "sad"));
 console.log(strStr("leetcode", "leeto"));

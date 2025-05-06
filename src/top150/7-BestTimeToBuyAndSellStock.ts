@@ -1,3 +1,5 @@
+export {};
+
 // prices = [7,1,5,3,6,4]
 // prices = [7,2,8,3,6,1,4]
 
@@ -12,7 +14,7 @@ function maxProfit(prices: number[]): number {
         profit = Math.max(profit, prices[i] - buyPrice);
     }
     return profit;
-};
+}
 console.log("maxProfit: " + maxProfit([7,2,8,3,6,1,4]));
 
 function maxProfitWithDays(prices: number[]): number {
@@ -37,7 +39,7 @@ function maxProfitWithDays(prices: number[]): number {
     console.log("Sell Day: " + (sellDayIndex + 1));
     console.log("Profit: " + profit);
     return profit;
-};
+}
 maxProfitWithDays([7,2,8,3,6,1,4]);
 
 function maxProfit0(prices: number[]): number {
@@ -50,4 +52,5 @@ function maxProfit0(prices: number[]): number {
         }
     }
     return profit;
-};
+}
+maxProfit0([7,2,8,3,6,1,4]);

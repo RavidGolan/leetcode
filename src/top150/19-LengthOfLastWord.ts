@@ -1,3 +1,5 @@
+export {};
+
 function lengthOfLastWord(s: string): number {
     let lengthLastWord = 0;
     for (let i=s.length -1; i>=0; i--) {
@@ -8,7 +10,7 @@ function lengthOfLastWord(s: string): number {
         }
     }
     return lengthLastWord;
-};
+}
 
 console.log(lengthOfLastWord("Hello World"));
 console.log(lengthOfLastWord("   fly me   to   the moon  "));
